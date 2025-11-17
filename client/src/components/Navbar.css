@@ -56,6 +56,20 @@
   gap: 15px;
 }
 
+.btn-demo {
+  padding: 8px 16px;
+  border: 1px dashed #ff9800;
+  border-radius: 6px;
+  color: #ff9800;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-demo:hover {
+  background: rgba(255, 152, 0, 0.1);
+}
+
 .btn-create,
 .btn-dashboard,
 .btn-admin {

@@ -115,7 +115,7 @@ const Profile = () => {
                   {article.coverImage && (
                     <div className="article-cover-small">
                       <img
-                        src={`http://localhost:5000${article.coverImage}`}
+                        src={article.coverImage}
                         alt={article.title}
                       />
                     </div>

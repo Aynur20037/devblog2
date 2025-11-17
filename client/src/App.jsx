@@ -13,6 +13,7 @@ import ForgotPassword from './pages/ForgotPassword'
 import ResetPassword from './pages/ResetPassword'
 import AdminPanel from './pages/AdminPanel'
 import AuthorDashboard from './pages/AuthorDashboard'
+import SecurityDemo from './pages/SecurityDemo'
 import ProtectedRoute from './components/ProtectedRoute'
 import './App.css'
 
@@ -31,6 +32,7 @@ function App() {
               <Route path="/register" element={<Register />} />
               <Route path="/forgot-password" element={<ForgotPassword />} />
               <Route path="/reset-password/:token" element={<ResetPassword />} />
+              <Route path="/security-demo" element={<SecurityDemo />} />
               <Route
                 path="/create-article"
                 element={

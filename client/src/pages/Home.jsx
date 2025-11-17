@@ -122,7 +122,7 @@ const Home = () => {
                 <article key={article.id} className="article-card">
                   {article.coverImage && (
                     <div className="article-cover">
-                      <img src={`http://localhost:5000${article.coverImage}`} alt={article.title} />
+                      <img src={article.coverImage} alt={article.title} />
                     </div>
                   )}
                   <div className="article-content">

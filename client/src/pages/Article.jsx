@@ -140,7 +140,7 @@ const Article = () => {
         <article className="article-full">
           {article.coverImage && (
             <div className="article-cover-full">
-              <img src={`http://localhost:5000${article.coverImage}`} alt={article.title} />
+              <img src={article.coverImage} alt={article.title} />
             </div>
           )}
 
